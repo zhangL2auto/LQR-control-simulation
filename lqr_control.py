@@ -66,7 +66,7 @@ def plot_x_u(t, x, x_ref):
         plt.legend()
         plt.pause(0.001)
 
-plt.show()
+    plt.show()
 
 def main():
     A, B, Q, R = sys()
